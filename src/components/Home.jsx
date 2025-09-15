@@ -30,7 +30,9 @@ function Home() {
             {/* Portfolio section */}
             <div className="container my-5 text-center">
                 <h3 className="fw-bold">Mis proyectos</h3>
-                <p className="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p className="text-secondary">
+                    Aquí encontrarás una selección de mis proyectos, desde los más sencillos hasta los más avanzados. Cada uno refleja mi crecimiento y aprendizaje como desarrollador. Espero que disfrutes explorándolos tanto como yo disfruté creándolos.
+                </p>
 
                 {/* Projects */}
                 <div className="row">
