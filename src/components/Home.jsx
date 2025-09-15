@@ -17,9 +17,11 @@ function Home() {
 
                     <h3 className="fw-light">Soy un desarrollador fullstack especializado en el framework de Django</h3>
 
-                    <p className="mt-3 text-secondary">Soy un desarrollador apasionado por el aprendizaje constante en el mundo del desarrollo de software. Tengo experiencia con lenguajes como Python, JavaScript y PHP, así como en frameworks modernos como Django, React.js y Vue.js, entre otros.
-                    <br />
-                    Este portafolio no solo busca mostrar mis habilidades técnicas y proyectos realizados, sino también compartir mis experiencias con otros desarrolladores. Mi objetivo es que esta plataforma se convierta en un espacio de apoyo y aprendizaje para quienes están iniciando en el desarrollo web y/o de software, fomentando así el crecimiento colectivo y la colaboración dentro de la comunidad tecnológica.</p>
+                    <p className="mt-3 text-secondary" style={{textAlign: "justify"}}>
+                        Soy un desarrollador apasionado por el aprendizaje constante en el mundo del desarrollo de software. Tengo experiencia con lenguajes como Python, JavaScript y PHP, así como en frameworks modernos como Django, React.js y Vue.js, entre otros.
+                        <br />
+                        Este portafolio no solo busca mostrar mis habilidades técnicas y proyectos realizados, sino también compartir mis experiencias con otros desarrolladores. Mi objetivo es que esta plataforma se convierta en un espacio de apoyo y aprendizaje para quienes están iniciando en el desarrollo web y/o de software, fomentando así el crecimiento colectivo y la colaboración dentro de la comunidad tecnológica.
+                    </p>
 
                     <a href={cv} className="btn btn-primary btn-lg rounded-1 mt-3 shadow" target="_blank">Ve mi CV</a>
                 </div>
