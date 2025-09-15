@@ -14,7 +14,7 @@ import { Navigation } from './components/partials/Navigation'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio-frontend">
       <Navigation />
 
       <Routes>
