@@ -31,9 +31,7 @@ function Home() {
             <div className="container my-5 text-center">
                 <h3 className="fw-bold">Mis proyectos</h3>
                 <p className="text-secondary">
-                    Aquí encontrarás una selección de mis proyectos, desde los más sencillos hasta los más avanzados cada uno refleja mi crecimiento y aprendizaje como desarrollador.
-                    <br />
-                    Espero que disfrutes explorándolos tanto como yo disfruté creándolos.
+                    Aquí encontrarás una selección de mis proyectos, desde los más sencillos hasta los más avanzados cada uno refleja mi crecimiento y aprendizaje como desarrollador espero que disfrutes explorándolos tanto como yo disfruté creándolos.
                 </p>
 
                 {/* Projects */}
