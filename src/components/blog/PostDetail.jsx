@@ -41,7 +41,7 @@ function PostDetail() {
 
                 {/* Contenido */}
                 <div className="mt-4 mx-auto" style={{ maxWidth: "800px" }}>
-                    <p className="lead text-start">{parse(blog.description)}</p>
+                    <p className="lead text-start" style={{textAlign: "justify"}}>{parse(blog.description)}</p>
                 </div>
 
                 {/* Boton para volver */}

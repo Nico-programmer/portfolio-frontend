@@ -40,7 +40,7 @@ function Blog() {
                             <div className="col-md-9">
                                 <div className="card-body">
                                     <h5 className="card-title">{blog.title}</h5>
-                                    <p className="card-text text-secondary">{truncateText(blog.description, 200)}</p>
+                                    <p className="card-text text-secondary" style={{textAlign: "justify"}}>{truncateText(blog.description, 200)}</p>
                                     <p className="card-text">
                                         <small className="text-secondary">{blog.date}</small>
                                     </p>

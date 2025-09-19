@@ -29,7 +29,7 @@ function ProjectsList() {
                         
                         <div className="card-body d-flex flex-column">
                             <h2 className="card-title">{project.title}</h2>
-                            <p className="card-text text-secondary">{project.description}</p>
+                            <p className="card-text text-secondary" style={{textAlign: "justify"}}>{project.description}</p>
 
                             <div className="mt-auto">
                                 <a href={project.url} className="btn btn-outline-light w-100 mt-2" target="_blank" rel="noreferrer">
