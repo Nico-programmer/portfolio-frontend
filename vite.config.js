@@ -11,4 +11,5 @@ export default defineConfig({
   optimizeDeps: {
     include: ["react-scroll"],
   },
+  base: "/portfolio-frontend/",
 })
