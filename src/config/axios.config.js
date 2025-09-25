@@ -1,4 +1,4 @@
-import axios from "axios"
+import axios from 'axios'
 
 // const apiBlog = axios.create({ baseURL: 'http://localhost:8000/blog/api/post/' })
 const apiBlog = axios.create({ baseURL: 'https://portfolio-backend-production-9ec3.up.railway.app/blog/api/post/' })

@@ -1,29 +1,23 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+// Componentes (includes)
+import Navbar from './components/include/Navbar'
+import Footer from './components/include/Footer'
 
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import './App.css'
-
-// Componentes
+// Componentes (pages)
 import Home from './components/Home'
-import Blog from './components/blog/Blog'
-import PostDetail from './components/blog/PostDetail'
-
-// Navegación
-import { Navigation } from './components/partials/Navigation'
 
 function App() {
-  return (
-    <BrowserRouter basename="/portfolio-frontend">
-      <Navigation />
-
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/blog/' element={<Blog />} />
-        <Route path='/post/:id/' element={<PostDetail />} />
-      </Routes>
-    </BrowserRouter>
-  )
+    return (
+        <div className="bg-gray-900 text-white font-fancy">
+            {/* Navbar (navegación) */}
+            <Navbar />
+                {/* Cuerpo */}
+                <main className='pt-20'>
+                    <Home />
+                </main>
+            {/* Footer (redes) */}
+            <Footer />
+        </div>
+    )
 }
 
 export default App
