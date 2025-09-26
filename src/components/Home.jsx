@@ -56,26 +56,17 @@ function Home() {
                     <p className="text-gray-300 mb-12">
                         Si quieres ponerte en contacto conmigo para colaboraciones, proyectos o simplemente charlar sobre
                         desarrollo, ¡escríbeme aquí!
+                        <br /><br />
+                        <span><i className="fas fa-envelope"></i> Mi correo</span>: nicolas.paulo.vega06@gmail.com
                     </p>
-
-                    {/* Formulario */}
-                    <form className="bg-gray-900 p-8 rounded-xl shadow-lg space-y-4 max-w-2xl mx-auto">
-                        <input type="text" placeholder="Tu nombre" className="w-full p-3 rounded-lg bg-black text-white border border-gray-700 focus:border-indigo-500 outline-none"/>
-
-                        <input type="email" placeholder="Tu correo" className="w-full p-3 rounded-lg bg-black text-white border border-gray-700 focus:border-indigo-500 outline-none"/>
-
-                        <textarea rows="4" placeholder="Tu mensaje" className="w-full p-3 rounded-lg bg-black text-white border border-gray-700 focus:border-indigo-500 outline-none"></textarea>
-
-                        <button type="submit" className="w-full py-3 rounded-lg bg-indigo-600 hover:bg-indigo-700 transition font-semibold shadow-lg">Enviar</button>
-                    </form>
 
                     {/* Redes sociales */}
                     <div className="mt-12 flex justify-center gap-6">
-                        <a href="https://github.com/Nico-programmer" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-indigo-400 transition text-2xl">
+                        <a href="https://github.com/Nico-programmer" target="_blank" rel="noreferrer"className="text-gray-400 hover:text-indigo-400 transition text-2xl">
                             <i className="fab fa-github"></i>
                         </a>
-
-                        <a href="https://www.linkedin.com/in/nicolas-paulo-vega-73365928b/" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-indigo-400 transition text-2xl">
+                        
+                        <a href="https://www.linkedin.com/in/nicolas-paulo-vega-73365928b/" target="_blank" rel="noreferrer"className="text-gray-400 hover:text-indigo-400 transition text-2xl">
                             <i className="fab fa-linkedin"></i>
                         </a>
                     </div>
